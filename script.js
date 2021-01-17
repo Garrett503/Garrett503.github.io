@@ -44,7 +44,7 @@ class AsciiArtGenerator {
             },
             {
 
-                size: 220,
+                size: 2,
                 charSamples: 2,
             }
 
