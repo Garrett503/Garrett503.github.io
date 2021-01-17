@@ -27,25 +27,15 @@ body {
     display: none;
   }
 }
-/* .dribbble {
-  position: fixed;
-  display: block;
-  right: 20px;
-  bottom: 20px;
+.hello{
+display: grid;
+grid-template-columns: repeat(var(--width), 1fr);
+font-family: 'Courier New', Courier, monospace;
+font-size: 9px;
+width: calc(var(--width) * 5.41px);
+height: calc(var(--height) * 10px);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
-.dribbble img {
-  display: block;
-  height: 28px;
-}
-
-.twitter {
-  position: fixed;
-  display: block;
-  right: 64px;
-  bottom: 14px;
-}
-.twitter svg {
-  width: 32px;
-  height: 32px;
-  fill: #1da1f2;
-} */
